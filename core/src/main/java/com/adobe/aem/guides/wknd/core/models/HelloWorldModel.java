@@ -18,10 +18,11 @@ package com.adobe.aem.guides.wknd.core.models;
 import static org.apache.sling.api.resource.ResourceResolver.PROPERTY_RESOURCE_TYPE;
 
 import javax.annotation.PostConstruct;
-
+import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.models.annotations.Default;
+import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.InjectionStrategy;
 import org.apache.sling.models.annotations.injectorspecific.OSGiService;
@@ -34,10 +35,10 @@ import com.day.cq.wcm.api.PageManager;
 
 import java.util.Optional;
 
-@Model(adaptables = Resource.class)
+@Model(adaptables = Resource.class, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class HelloWorldModel {
 
-    @ValueMapValue(name=PROPERTY_RESOURCE_TYPE, injectionStrategy=InjectionStrategy.OPTIONAL)
+    @ValueMapValue(name=PROPERTY_RESOURCE_TYPE)
     @Default(values="No resourceType")
     protected String resourceType;
 
@@ -47,6 +48,17 @@ public class HelloWorldModel {
     private Resource currentResource;
     @SlingObject
     private ResourceResolver resourceResolver;
+
+    //read value of title entered in dialog and stored in JCR
+    //map value of title to Java variable named title
+    @ValueMapValue
+    private String title; //this name must match the name that was created in content.xml (title)
+
+    @ValueMapValue
+    private String text; //this name must match the name that was created in content.xml (text)
+
+    @ValueMapValue
+    private String subtitle; //this name must match the name that was created in content.xml (subtitle)
 
     private String message;
 
@@ -63,8 +75,23 @@ public class HelloWorldModel {
             + "This is instance: " + settings.getSlingId() + "\n";
     }
 
+    //if we plan to call method from HTL script, then it should have no parameters
     public String getMessage() {
         return message;
+    }
+     //if we plan to call method from HTL script, then it should have no parameters
+    public String getTitle() {
+        return StringUtils.isNotBlank(title) ? title : "Default Value here!";
+    }
+
+     //if we plan to call method from HTL script, then it should have no parameters
+     public String getText() {
+        return StringUtils.isNotBlank(text) ? text.toUpperCase() : null;
+    }
+
+     //if we plan to call method from HTL script, then it should have no parameters
+     public String getSubtitle() {
+        return StringUtils.isNotBlank(subtitle) ? subtitle.toLowerCase() : "Subtitle value is empty";
     }
 
 }
