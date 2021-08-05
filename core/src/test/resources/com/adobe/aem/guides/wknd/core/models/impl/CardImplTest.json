@@ -1,0 +1,42 @@
+{
+    "card": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wknd/components/content/card",
+        "title": "Night in forest",
+        "description": "Stars,birds,trees",
+        "buttontext": "More about birds",
+        "buttonlink": "https://www.thoughtco.com/facts-about-birds-4069408#:~:text=%2010%20Essential%20Facts%20About%20Birds%20%201,is%20now%20incontestable%20that%20birds%20evolved...%20More%20"
+    },
+    "empty": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wknd/components/content/card"
+    },
+    "without-title": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wknd/components/content/card",
+        "description": "Stars,birds,trees",
+        "buttontext": "More about birds",
+        "buttonlink": "https://www.thoughtco.com/facts-about-birds-4069408#:~:text=%2010%20Essential%20Facts%20About%20Birds%20%201,is%20now%20incontestable%20that%20birds%20evolved...%20More%20"
+    },
+    "without-description": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wknd/components/content/card",
+        "title": "Night in forest",
+        "buttontext": "More about birds",
+        "buttonlink": "https://www.thoughtco.com/facts-about-birds-4069408#:~:text=%2010%20Essential%20Facts%20About%20Birds%20%201,is%20now%20incontestable%20that%20birds%20evolved...%20More%20"
+    },
+    "without-buttontext": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wknd/components/content/card",
+        "title": "Night in forest",
+        "description": "Stars,birds,trees",
+        "buttonlink": "https://www.thoughtco.com/facts-about-birds-4069408#:~:text=%2010%20Essential%20Facts%20About%20Birds%20%201,is%20now%20incontestable%20that%20birds%20evolved...%20More%20"
+    },
+    "without-buttonlink": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wknd/components/content/card",
+        "title": "Night in forest",
+        "description": "Stars,birds,trees",
+        "buttontext": "More about birds"
+    }
+}
