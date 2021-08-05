@@ -1,0 +1,41 @@
+.cmp-card {
+    $imageSize: 100px;
+    padding: 10px;
+
+    .cmp-card__image {
+        float: left;
+
+    /* This class targets a Core Component Image CSS class */
+    .cmp-image__image {
+        width: $imageSize;
+        height: $imageSize;
+        object-fit: cover;
+        margin-right: 10px;
+        }
+    }
+
+    .cmp-card__title {
+        font-size: $font-size-medium;
+        font-family: $font-family-serif;
+        padding-top: 0.5rem;
+        margin-left: $imageSize + 25px;
+        margin-bottom: .25rem;
+        margin-top:0rem;
+    }
+
+    .cmp-card__description {
+        font-size: $font-size-small;
+        font-family: $font-family-serif;
+        padding-top: 0.5rem;
+        margin-left: $imageSize + 25px;
+        margin-bottom: .25rem;
+        margin-top:0rem;
+    }
+
+    .cmp-card__button {
+        display: inline-block;
+        padding: 5px 10px;
+        border: 1px solid #006699;
+        text-decoration: none;
+    }
+}
