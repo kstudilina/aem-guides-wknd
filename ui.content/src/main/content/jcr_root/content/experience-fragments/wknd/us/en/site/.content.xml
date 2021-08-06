@@ -5,4 +5,7 @@
     jcr:title="Site">
     <header/>
     <footer/>
+    <bnc-header/>
+    <bnc-subheader/>
+    <bnc-footer/>
 </jcr:root>

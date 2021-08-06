@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2021-08-05T14:40:50.180-04:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[wknd:]"
+        cq:template="/conf/wknd/settings/wcm/templates/2-column-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="2 column page"
+        sling:resourceType="wknd/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any"
+        socialMedia="[facebook,pinterest]">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2021-08-05T13:54:22.899-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T13:54:31.272-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Your main title here"
+                    sling:resourceType="wknd/components/title"/>
+                <breadcrumb
+                    jcr:created="{Date}2021-08-05T13:54:36.379-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T14:04:01.693-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/breadcrumb"
+                    disableShadowing="false"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="2"/>
+                <image
+                    jcr:created="{Date}2021-08-05T14:39:52.705-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T14:40:50.173-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Photography"
+                    sling:resourceType="wknd/components/image"
+                    alt="woman with a photo camera"
+                    altValueFromDAM="false"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/stacey-roswells.jpg"
+                    isDecorative="false"
+                    titleValueFromDAM="false"/>
+                <title_1059553577
+                    jcr:created="{Date}2021-08-05T14:07:17.957-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T14:07:59.061-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Check out some activities"
+                    sling:resourceType="wknd/components/title"
+                    type="h4"/>
+                <list
+                    jcr:created="{Date}2021-08-05T14:05:59.220-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T14:07:02.930-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/list"
+                    childDepth="1"
+                    linkItems="true"
+                    listFrom="static"
+                    orderBy="title"
+                    pages="[/content/wknd/us/en/adventures/river-rafting-new-zealand,/content/wknd/us/en/adventures/cycling-tuscany]"
+                    showDescription="false"
+                    showModificationDate="false"
+                    sortOrder="asc"
+                    tagsMatch="any">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </list>
+                <sharing
+                    jcr:created="{Date}2021-08-05T14:08:10.666-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T14:08:10.666-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/sharing">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="6"/>
+                    </cq:responsive>
+                </sharing>
+                <text
+                    jcr:lastModified="{Date}2021-08-05T14:10:20.963-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>Here goes the main text for this page&lt;/p>&#xa;&lt;p>text&lt;/p>&#xa;&lt;p>text&lt;/p>&#xa;&lt;p>text&lt;/p>&#xa;&lt;p>text&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </container>
+            <container_1045163831
+                jcr:created="{Date}2021-08-05T13:47:14.384-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-05T13:48:38.279-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container">
+                <title
+                    jcr:created="{Date}2021-08-05T13:49:21.578-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T13:54:16.504-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Your side title here"
+                    sling:resourceType="wknd/components/title"/>
+                <separator
+                    jcr:created="{Date}2021-08-05T13:49:33.925-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T13:49:33.925-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/separator"/>
+                <text
+                    jcr:created="{Date}2021-08-05T13:49:46.394-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T13:50:16.856-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/text"
+                    text="&lt;p>Write some text here if you wish&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <card
+                    jcr:created="{Date}2021-08-05T13:49:50.101-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-05T14:11:50.859-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/card"
+                    buttonlink="https://www.google.ca/"
+                    buttontext="Click me"
+                    description="Card's description"
+                    fileReference="/content/dam/wknd/en/magazine/alaska-adventure/plane.JPG"
+                    title="Card's title"/>
+            </container_1045163831>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

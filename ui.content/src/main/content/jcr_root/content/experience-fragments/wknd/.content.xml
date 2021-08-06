@@ -4,5 +4,7 @@
     cq:allowedTemplates="[/conf/wknd/settings/wcm/templates/(?!page-).*]"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="WKND Sites Project Fragments">
+    <language-masters/>
     <us/>
+    <ca/>
 </jcr:root>

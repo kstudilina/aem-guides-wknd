@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-06T09:36:09.128-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/article-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Ultimate Guide to LA Skateparks KS"
+        sling:resourceType="wknd/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any"
+        socialMedia="[facebook,pinterest]">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:lastModified="{Date}2021-07-28T15:20:49.247-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <image
+                    jcr:created="{Date}2021-07-28T15:21:31.762-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-28T16:21:29.405-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_hero.png"/>
+                <container
+                    cq:styleIds="[1628006072248]"
+                    jcr:created="{Date}2021-07-28T15:22:44.587-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-28T15:23:18.243-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <title
+                        jcr:created="{Date}2021-07-28T15:30:31.599-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T15:30:31.599-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/title">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="10"/>
+                        </cq:responsive>
+                    </title>
+                    <title_189764423
+                        jcr:created="{Date}2021-07-28T15:30:44.772-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T16:21:58.920-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="By Stacey Roswells"
+                        sling:resourceType="wknd/components/title"
+                        type="h4"/>
+                    <text
+                        jcr:created="{Date}2021-07-28T15:31:09.362-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T16:22:28.753-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/text"
+                        text="&lt;p>Do you want to know all about Skate Parks ? I'm sure that the answer on this question is YES. Then don't wait , visit this site and don't miss anything on these pages . Here you will find the most amazing facts , stories and more about the great , fun and extreme sport - skateboarding. Skate parks are the most impotant thing about skateboarding . On the skate parks you can make the most extreme skate tricks ! There are thousands of skate parks all alround the world . The first skate park was made by two inventors&lt;br>&#xd;&#xa;Jack G.and John O. and was copmleted in march in the '76 . That skate park was caled Carlsbad . If you want to read more just scroll down and find out everything you need to know about skate parks . And if you want to learn more about skateboarding than click&amp;nbsp;&lt;b>&lt;a href=&quot;http://www.myskateboardinggames.com/AboutSkateboarding.php&quot;>here&lt;/a>&amp;nbsp;&lt;/b>and learn more ! And also ... here you will find all the tipes of skate parks like :&lt;br>&#xd;&#xa;Bowl Skate Park , Street Plaza Skate Park and Flow Skate Parks ! Enjoy reading this usefull &amp;quot;skate park&amp;quot; information , hehe !&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <text_552059341
+                        cq:styleIds="[1627592906779]"
+                        jcr:created="{Date}2021-07-28T16:22:48.703-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T16:24:29.616-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/text"
+                        text="&lt;blockquote>&amp;nbsp;“If you have everything under control, you’re not moving fast enough.”&lt;/blockquote>&#xd;&#xa;&lt;p>Jacob Wester, Pro Skater&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <title_1843237252
+                        jcr:created="{Date}2021-07-28T16:24:40.431-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T16:25:08.582-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Venice Beach"
+                        sling:resourceType="wknd/components/title"
+                        type="h2"/>
+                    <image
+                        jcr:created="{Date}2021-07-28T16:25:19.273-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T16:25:29.269-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/image"
+                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_picture_01.png"/>
+                    <byline
+                        jcr:created="{Date}2021-08-03T13:00:56.324-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-08-03T13:15:15.815-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/byline"
+                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/stacey-roswells.jpg"
+                        name="Stacey Rosewells"
+                        occupations="[Photographer,Blogger]">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="9"/>
+                        </cq:responsive>
+                    </byline>
+                    <card
+                        jcr:created="{Date}2021-08-03T14:23:22.782-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-08-03T16:53:05.654-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/card"
+                        buttonlink="https://www.google.ca/"
+                        buttontext="Search smth in Google"
+                        description="This is a short description"
+                        fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_164735399.jpeg"
+                        title="This is card's title">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </card>
+                    <card_665517496
+                        jcr:created="{Date}2021-08-04T10:13:37.697-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-08-04T10:15:52.366-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/card"
+                        buttonlink="https://www.thoughtco.com/facts-about-birds-4069408#:~:text=%2010%20Essential%20Facts%20About%20Birds%20%201,is%20now%20incontestable%20that%20birds%20evolved...%20More%20"
+                        buttontext="More about birds"
+                        description="Stars, birds, trees"
+                        fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/milkyway-amazon.JPG"
+                        title="Night in forest">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="10"/>
+                        </cq:responsive>
+                    </card_665517496>
+                </container>
+                <container_2119086163
+                    jcr:created="{Date}2021-07-28T15:24:37.743-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-28T15:24:43.449-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <title
+                        jcr:created="{Date}2021-07-28T15:31:20.463-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T15:31:42.422-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Sahre this story"
+                        sling:resourceType="wknd/components/title"
+                        type="h5"/>
+                    <sharing
+                        jcr:created="{Date}2021-07-28T15:31:48.961-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T15:31:48.961-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/sharing"/>
+                    <separator
+                        jcr:created="{Date}2021-07-28T15:32:03.369-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T15:32:03.369-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/separator"/>
+                    <download
+                        jcr:created="{Date}2021-07-28T15:32:07.899-04:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Get the Full Story&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-07-28T16:26:38.528-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/download"
+                        actionText="Download PDF"
+                        descriptionFromAsset="false"
+                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/UltimateGuidetoLASkateParks.pdf"
+                        inline="false"
+                        textIsRich="true"
+                        titleFromAsset="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="8"/>
+                        </cq:responsive>
+                    </download>
+                    <list
+                        jcr:created="{Date}2021-07-28T15:32:16.758-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-28T16:27:12.319-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/list"
+                        childDepth="1"
+                        linkItems="true"
+                        listFrom="children"
+                        parentPage="/content/wknd/us/en/magazine"
+                        showDescription="false"
+                        showModificationDate="true"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                </container_2119086163>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
