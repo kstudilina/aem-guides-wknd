@@ -1,0 +1,11 @@
+<div data-sly-use.Card2="com.adobe.aem.guides.wknd.core.models.Card2"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+data-sly-test.hasContent="${!card2.empty}"
+class="cmp-card2">
+    <div class="cmp-card2__image"
+    data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"></div>
+    <h1 data-sly-element="${card2.titlesize}">${card2.title}</h1> <!-- Replaces the h1 with the value of titlesize -->
+
+</div>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+
