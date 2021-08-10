@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-08-05T13:39:35.586-04:00"
+        cq:lastModified="{Date}2021-08-09T16:32:00.164-04:00"
         cq:lastModifiedBy="admin"
         cq:tags="[wknd:activity,wknd:activity/river-rafting]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
@@ -258,6 +258,16 @@
                     sling:resourceType="wknd/components/text"
                     text="&lt;p>Rafting and whitewater rafting are recreational outdoor activities which use an inflatable raft to navigate a river or other body of water. This is often done on whitewater or different degrees of rough water. Dealing with risk is often a part of the experience.&lt;/p>&#xd;&#xa;"
                     textIsRich="true"/>
+                <card2
+                    jcr:created="{Date}2021-08-09T16:09:35.651-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-09T16:14:49.450-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/card2"
+                    fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring8Sjoeberg.JPG"
+                    title="Sunset near the ocean"
+                    titlesize="H5"/>
             </container>
         </root>
         <image jcr:primaryType="nt:unstructured">

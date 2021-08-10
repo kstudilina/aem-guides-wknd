@@ -263,12 +263,12 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2021-08-06T07:39:09.170-04:00"
+                    jcr:lastModified="{Date}2021-08-10T08:29:55.608-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:WKND Sites Project - Content,/apps/wknd/components/form/container]"
+                    components="[/apps/wknd/components/accordion,/apps/wknd/components/breadcrumb,/apps/wknd/components/button,/apps/wknd/components/byline,/apps/wknd/components/card,/apps/wknd/components/card2,/apps/wknd/components/carousel,/apps/wknd/components/container,/apps/wknd/components/contentfragment,/apps/wknd/components/contentfragmentlist,/apps/wknd/components/download,/apps/wknd/components/embed,/apps/wknd/components/experiencefragment,/apps/wknd/components/image,/apps/wknd/components/list,/apps/wknd/components/pdfviewer,/apps/wknd/components/progressbar,/apps/wknd/components/separator,/apps/wknd/components/sharing,/apps/wknd/components/tabs,/apps/wknd/components/teaser,/apps/wknd/components/text,/apps/wknd/components/title,/apps/wknd/components/form/container]"
                     layout="responsiveGrid"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -427,15 +427,26 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_20585960930700>
                 <policy_1849480293000
-                    jcr:lastModified="{Date}2021-08-06T07:46:16.798-04:00"
+                    jcr:lastModified="{Date}2021-08-10T16:09:43.723-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="BNC Content"
                     sling:resourceType="wcm/core/components/policy/policy"
                     components="[group:WKND Sites Project - Content,group:WKND Sites Project - Form]"
+                    layout="responsiveGrid"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1849480293000>
+                <policy_28100317594100
+                    jcr:lastModified="{Date}2021-08-10T16:09:33.806-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="BNC Content"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    layout="responsiveGrid"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_28100317594100>
             </container>
             <form jcr:primaryType="nt:unstructured">
                 <container jcr:primaryType="nt:unstructured">

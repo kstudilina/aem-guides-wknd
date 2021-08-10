@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-08-06T08:42:53.217-04:00"
+        cq:lastModified="{Date}2021-08-10T16:12:39.178-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/bnc-homapage-template"
         jcr:primaryType="cq:PageContent"
@@ -19,26 +19,129 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/container">
-                <teaser
-                    jcr:created="{Date}2021-08-06T08:36:32.132-04:00"
+                <banner
+                    jcr:created="{Date}2021-08-10T09:17:21.217-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-06T08:38:49.239-04:00"
+                    jcr:lastModified="{Date}2021-08-10T15:50:33.778-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/teaser"
-                    actionsEnabled="false"
-                    descriptionFromPage="false"
-                    fileReference="/content/dam/wknd/en/site/Banner.PNG"
-                    textIsRich="true"
-                    titleFromPage="false"/>
+                    sling:resourceType="wknd/components/banner"
+                    buttonlink="https://www.google.ca/"
+                    buttontext="Voir l'offre"
+                    fileReference="/content/dam/wknd/en/site/stacey-roswells.jpg"
+                    subtitle="Jusqu'a 15,95 $ de plus dans vos poches"
+                    text="offre 18-24 ans"
+                    title="Un compte bancaire sans frais mensuels"/>
                 <title
-                    jcr:created="{Date}2021-08-06T08:39:34.359-04:00"
+                    jcr:created="{Date}2021-08-10T09:38:00.126-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-06T08:39:49.589-04:00"
+                    jcr:lastModified="{Date}2021-08-10T09:38:00.126-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Your title here"
+                    jcr:title="Offres, promotions et nouvelles"
                     sling:resourceType="wknd/components/title"/>
+                <list
+                    jcr:created="{Date}2021-08-10T15:54:45.899-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-10T15:54:45.899-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/list"
+                    childDepth="1"
+                    linkItems="false"
+                    listFrom="children"
+                    parentPage="/content/wknd/us/en/magazine"
+                    showDescription="false"
+                    showModificationDate="false"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+                <container
+                    jcr:created="{Date}2021-08-10T15:56:06.477-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-10T15:56:06.477-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <title
+                        jcr:created="{Date}2021-08-10T15:56:18.120-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-08-10T15:56:38.246-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Que cherchez-vous aujourd'hui?"
+                        sling:resourceType="wknd/components/title"/>
+                    <container
+                        jcr:created="{Date}2021-08-10T15:57:26.994-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-08-10T15:57:26.994-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/container">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                        <image
+                            jcr:created="{Date}2021-08-10T16:06:50.612-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-10T16:07:04.713-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/image"
+                            altValueFromDAM="true"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/wknd/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"
+                            isDecorative="false"
+                            titleValueFromDAM="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </image>
+                        <image_436665964
+                            jcr:created="{Date}2021-08-10T16:10:59.514-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-10T16:11:14.321-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/image"
+                            altValueFromDAM="true"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_166388792.jpeg"
+                            isDecorative="false"
+                            titleValueFromDAM="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="2"/>
+                            </cq:responsive>
+                        </image_436665964>
+                        <image_1417000404
+                            jcr:created="{Date}2021-08-10T16:12:00.556-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-10T16:12:07.447-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/image"
+                            altValueFromDAM="true"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_164735399.jpeg"
+                            isDecorative="false"
+                            titleValueFromDAM="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="3"
+                                    width="2"/>
+                            </cq:responsive>
+                        </image_1417000404>
+                    </container>
+                </container>
             </container>
         </root>
     </jcr:content>

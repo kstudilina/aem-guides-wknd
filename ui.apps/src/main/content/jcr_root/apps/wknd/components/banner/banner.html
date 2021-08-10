@@ -1,0 +1,16 @@
+<div data-sly-use.Banner="com.adobe.aem.guides.wknd.core.models.Banner"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+data-sly-test.hasContent="${!banner.empty}"
+class="cmp-banner">
+    <div class="img-wrapper">
+        <div class="cmp-banner__image"
+        data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"></div>
+    </div>
+
+    <h1 class="cmp-banner__text">${banner.text}</h1>
+    <p class="cmp-banner__title">${banner.title}</p>
+    <h2 class="cmp-banner__subtitle">${banner.subtitle}</h2>
+    <a class="cmp-banner__button" href=${banner.buttonlink}>${banner.buttontext}</a>
+</div>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+

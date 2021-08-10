@@ -1,0 +1,78 @@
+.cmp-banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+    .cmp-banner__image {
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+
+    /* This class targets a Core Component Image CSS class */
+   /* .cmp-image__image {
+        width: $imageSize;
+        height: $imageSize;
+        object-fit: cover;
+        margin-right: 10px;
+        } */
+    }
+
+    .img-wrapper{
+        max-height: 550px;
+        overflow: hidden;
+    }
+
+    .cmp-banner__text {
+        font-family: $font-family-serif;
+        position: absolute;
+        z-index: 999;
+        color: $pink;
+        margin: 0 auto;
+        left: 5%;
+        right: 0;        
+        text-align: left;
+        top: 5%;
+    }
+
+    .cmp-banner__title {
+        font-family: $font-family-serif;
+        position: absolute;
+        color: $pink;
+        font-size: 75px;
+        z-index: 999;
+        margin: 0 auto;
+        left: 5%;
+        right: 0;        
+        text-align: left;
+        top: 15%;
+    }
+
+    .cmp-banner__subtitle {
+        font-family: $font-family-serif;
+        position: absolute;
+        z-index: 999;
+        color: $black;
+        margin: 0 auto;
+        left: 5%;
+        right: 0;        
+        text-align: left;
+        top: 60%;
+    }
+
+    .cmp-banner__button {
+        font-family: $font-family-serif;
+        position: absolute;
+        z-index: 999;
+        margin: 0 0;
+        left: 5%;
+        right: 0;        
+        top: 75%;
+        width: fit-content;
+        padding: 5px 10px;
+        background-color: $pink;
+        text-decoration: none;
+        color: white;
+        border-radius: 45%;
+        padding: 15px 30px;
+    }
+}
