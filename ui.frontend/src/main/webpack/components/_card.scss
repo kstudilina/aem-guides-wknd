@@ -33,9 +33,18 @@
     }
 
     .cmp-card__button {
-        display: inline-block;
-        padding: 5px 10px;
-        border: 1px solid #006699;
+        float: right;
+        display: inline;
+        padding: 15px 20px;
+        border: 1px solid #2e6430;
         text-decoration: none;
+        border-radius: 50%;
+        background-color: transparent;
+        color: #2e6430;
     }
+
+    .cmp-card__button:hover {
+        background-color: #2e6430; /* Green */
+        color: white;
+      }
 }
