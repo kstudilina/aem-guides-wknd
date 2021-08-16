@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <errors/>
     <jcr:content
-        cq:lastModified="{Date}2020-09-30T17:28:29.020-07:00"
+        cq:lastModified="{Date}2021-08-10T11:50:35.546-04:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
@@ -187,7 +187,7 @@
                     jcr:created="{Date}2019-10-21T11:31:11.525-07:00"
                     jcr:createdBy="admin"
                     jcr:description="&lt;p>With WKND Adventures, you don't just see the world-- you experience its cultures, flavors and wonders.&lt;/p>&#xd;&#xa;"
-                    jcr:lastModified="{Date}2019-10-27T16:12:59.312-07:00"
+                    jcr:lastModified="{Date}2021-08-10T11:50:35.542-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Experience the world with us"

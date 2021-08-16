@@ -1,50 +1,67 @@
-.cmp-card {
-    $imageSize: 100px;
-    padding: 10px;
+.cmp-card--title--darkgreen {
+    .cmp-card {
+        .cmp-card__title {
+            color: #1c381d; /* Green */
+        }
+    }
+}
+    .cmp-card {
+        $imageSize: 100px;
+        padding: 20px;
 
-    .cmp-card__image {
-        float: left;
+        .cmp-card__image {
+            float: left;
 
-    /* This class targets a Core Component Image CSS class */
-    .cmp-image__image {
-        width: $imageSize;
-        height: $imageSize;
-        object-fit: cover;
-        margin-right: 10px;
+        /* This class targets a Core Component Image CSS class */
+        .cmp-image__image {
+            width: $imageSize;
+            height: $imageSize;
+            object-fit: cover;
+            margin-right: 10px;
+            }
+        }
+
+        .cmp-card__title {
+            font-size: $font-size-medium;
+            font-family: $font-family-serif;
+            padding-top: 0.5rem;
+            margin-left: $imageSize + 25px;
+            margin-bottom: .25rem;
+            margin-top:0rem;
+        }
+
+        .cmp-card__description {
+            font-size: $font-size-small;
+            font-family: $font-family-serif;
+            padding-top: 0.5rem;
+            margin-left: $imageSize + 25px;
+            margin-bottom: .25rem;
+            margin-top:0rem;
+        }
+
+        .cmp-card__button {
+            float: right;
+            display: inline;
+            padding: 15px 20px;
+            border: 1px solid #2e6430;
+            text-decoration: none;
+            border-radius: 50%;
+            background-color: transparent;
+            color: #2e6430;
+        }
+
+        .cmp-card__button:hover {
+            background-color: #2e6430; /* Green */
+            color: white;
         }
     }
 
-    .cmp-card__title {
-        font-size: $font-size-medium;
-        font-family: $font-family-serif;
-        padding-top: 0.5rem;
-        margin-left: $imageSize + 25px;
-        margin-bottom: .25rem;
-        margin-top:0rem;
+    .cmp-card--bg--green {
+        background-color: aquamarine;
     }
 
-    .cmp-card__description {
-        font-size: $font-size-small;
-        font-family: $font-family-serif;
-        padding-top: 0.5rem;
-        margin-left: $imageSize + 25px;
-        margin-bottom: .25rem;
-        margin-top:0rem;
+    .cmp-card--bg--red {
+        background-color: palevioletred;
     }
 
-    .cmp-card__button {
-        float: right;
-        display: inline;
-        padding: 15px 20px;
-        border: 1px solid #2e6430;
-        text-decoration: none;
-        border-radius: 50%;
-        background-color: transparent;
-        color: #2e6430;
-    }
 
-    .cmp-card__button:hover {
-        background-color: #2e6430; /* Green */
-        color: white;
-      }
-}

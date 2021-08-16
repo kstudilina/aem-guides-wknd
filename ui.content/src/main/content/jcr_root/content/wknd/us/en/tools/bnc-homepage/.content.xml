@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-08-10T16:12:39.178-04:00"
+        cq:lastModified="{Date}2021-08-16T16:56:44.568-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/bnc-homapage-template"
         jcr:primaryType="cq:PageContent"
@@ -33,6 +33,7 @@
                     text="offre 18-24 ans"
                     title="Un compte bancaire sans frais mensuels"/>
                 <title
+                    cq:styleIds="[1629140955453]"
                     jcr:created="{Date}2021-08-10T09:38:00.126-04:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2021-08-10T09:38:00.126-04:00"
@@ -43,13 +44,14 @@
                 <list
                     jcr:created="{Date}2021-08-10T15:54:45.899-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-10T15:54:45.899-04:00"
+                    jcr:lastModified="{Date}2021-08-12T09:34:17.466-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/list"
                     childDepth="1"
                     linkItems="false"
                     listFrom="children"
+                    pages="[trrty,ggfhg]"
                     parentPage="/content/wknd/us/en/magazine"
                     showDescription="false"
                     showModificationDate="false"
@@ -99,28 +101,28 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
-                                    width="2"/>
+                                    width="3"/>
                             </cq:responsive>
                         </image>
-                        <image_436665964
-                            jcr:created="{Date}2021-08-10T16:10:59.514-04:00"
+                        <image_440759879
+                            jcr:created="{Date}2021-08-12T09:33:01.173-04:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-08-10T16:11:14.321-04:00"
+                            jcr:lastModified="{Date}2021-08-12T09:35:18.367-04:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/image"
                             altValueFromDAM="true"
                             displayPopupTitle="true"
-                            fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_166388792.jpeg"
+                            fileReference="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-grizzly.jpg"
                             isDecorative="false"
                             titleValueFromDAM="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="2"
-                                    width="2"/>
+                                    offset="0"
+                                    width="3"/>
                             </cq:responsive>
-                        </image_436665964>
+                        </image_440759879>
                         <image_1417000404
                             jcr:created="{Date}2021-08-10T16:12:00.556-04:00"
                             jcr:createdBy="admin"
@@ -136,11 +138,137 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="2"/>
+                                    offset="0"
+                                    width="3"/>
                             </cq:responsive>
                         </image_1417000404>
+                        <title
+                            jcr:created="{Date}2021-08-12T09:35:45.143-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-12T09:39:05.443-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Nouveaux arrivants"
+                            sling:resourceType="wknd/components/title"
+                            type="h4">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="3"/>
+                            </cq:responsive>
+                        </title>
+                        <title_455647660
+                            jcr:created="{Date}2021-08-12T09:39:32.569-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-12T09:39:50.063-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="18 - 24"
+                            sling:resourceType="wknd/components/title"
+                            type="h4">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="3"/>
+                            </cq:responsive>
+                        </title_455647660>
+                        <title_1415050657
+                            jcr:created="{Date}2021-08-12T09:40:14.435-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-12T09:40:41.247-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Génie"
+                            sling:resourceType="wknd/components/title"
+                            type="h4">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="3"/>
+                            </cq:responsive>
+                        </title_1415050657>
+                        <extendedlist
+                            jcr:created="{Date}2021-08-11T11:22:45.483-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-11T11:23:38.884-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/extendedlist"
+                            childDepth="1"
+                            linkItems="false"
+                            listFrom="static"
+                            pages="/content/wknd/us/en/faqs"
+                            showDescription="false"
+                            showModificationDate="false"
+                            sortOrder="asc"
+                            tagsMatch="any"/>
+                        <extendedlist_2096951230
+                            jcr:created="{Date}2021-08-12T12:05:01.984-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-12T12:05:01.984-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/extendedlist"/>
+                        <extendedlist_1052979781
+                            jcr:created="{Date}2021-08-12T12:05:29.079-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-12T12:05:29.079-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/extendedlist"/>
+                        <extendedlist_2023566495
+                            jcr:created="{Date}2021-08-12T12:06:54.263-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-12T12:06:54.263-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/extendedlist"/>
+                        <card
+                            cq:styleIds="[1629142458332,1629141519568]"
+                            jcr:created="{Date}2021-08-12T13:54:04.582-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-12T13:59:47.691-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/card"
+                            buttonlink="https://www.google.ca/"
+                            buttontext="Voir nos initiatives"
+                            description="Fiers commanditaires de l’Omnium Banque Nationale présenté par Rogers, nous faisons grandir la passion pour le tennis au Canada depuis 2005."
+                            fileReference="/content/dam/wknd/en/site/tennis.png"
+                            title="Passionnés de tennis, on est là pour vous"/>
                     </container>
+                    <showcase
+                        jcr:created="{Date}2021-08-16T16:32:09.080-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-08-16T16:54:16.603-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/showcase"
+                        title="Que cherchez-vous aujourd'hui?">
+                        <card2
+                            jcr:created="{Date}2021-08-16T16:35:44.378-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-16T16:56:13.031-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/card2"
+                            fileReference="/content/dam/wknd/en/site/tennis.png"
+                            title="Comptes"
+                            titlesize="H4"/>
+                        <card2_634933464
+                            jcr:created="{Date}2021-08-16T16:56:21.291-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-08-16T16:56:44.561-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/card2"
+                            fileReference="/content/dam/wknd/en/site/tennis.png"
+                            title="Emprunts"
+                            titlesize="H4"/>
+                    </showcase>
                 </container>
             </container>
         </root>
