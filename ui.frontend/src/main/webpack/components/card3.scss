@@ -1,0 +1,30 @@
+ .cmp-card3 {
+        padding: 20px;
+    }
+
+        .cmp-card3__text {
+            font-size: $font-size-medium;
+            font-family: $font-family-serif;
+           margin: 0 auto;
+        }
+
+        .cmp-card3__button {
+            margin: 0 auto;
+            display: inline;
+            padding: 15px 20px;
+            border: 1px solid #2e6430;
+            text-decoration: none;
+            border-radius: 50%;
+            background-color: transparent;
+            color: #2e6430;
+        }
+
+        .cmp-card3__button:hover {
+            background-color: #2e6430; /* Green */
+            color: white;
+        }
+
+
+
+
+

@@ -1,7 +1,7 @@
 .cmp-card--title--darkgreen {
     .cmp-card {
         .cmp-card__title {
-            color: #1c381d; /* Green */
+            color: $dark-green; /* Green */
         }
     }
 }
@@ -57,7 +57,10 @@
     }
 
     .cmp-card--bg--green {
-        background-color: aquamarine;
+        .cmp-card {
+            background-color: aquamarine;
+        }
+        
     }
 
     .cmp-card--bg--red {

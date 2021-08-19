@@ -4,6 +4,7 @@ $black:                  #202020;
 $gray:                   #696969;
 $gray-light:             #EBEBEB;
 $gray-lighter:           #F7F7F7;
+$gray-dark:              #2b2428;
 $white:                  #ffffff;
 $yellow:                 #FFE900;
 $blue:                   #0045FF;
@@ -19,7 +20,7 @@ $brand-third:            $gray-light;
 
 $body-bg:                 $white;
 $text-color:              $black;
-$title-color:             $dark-green;
+$title-color:             $gray-dark;
 $text-color-inverse:      $gray-light;
 $link-color:              $blue;
 $nav-link-color:          $black;

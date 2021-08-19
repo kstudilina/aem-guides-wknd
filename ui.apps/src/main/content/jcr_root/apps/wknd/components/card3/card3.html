@@ -1,0 +1,12 @@
+<div data-sly-use.Showcase="com.adobe.aem.guides.wknd.core.models.Card3"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+data-sly-test.hasContent="${!card3.empty}"
+class="cmp-card3">
+    <div class="cmp-showcase__container"
+    data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/container/v1/container' }">
+    <p class="cmp-card3__text">${card3.text}</p>
+    <a class="cmp-card3__button" href=${card3.buttonlink}>${card3.buttontext}</a>
+    </div>
+</div>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+
