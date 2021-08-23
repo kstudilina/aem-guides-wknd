@@ -1,0 +1,13 @@
+<div data-sly-use.Card5="com.adobe.aem.guides.wknd.core.models.Card5"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+data-sly-test.hasContent="${!card5.empty}"
+class="cmp-card5">
+    <div class="cmp-card5__image"
+    data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }" data-sly-test="${card5.showImage}"></div>
+    <h2 class="cmp-card5__title" data-sly-test="${card5['title'].length > 0}">${card5.title}</h2>
+    <a class="cmp-card5__link" href=${card5.link} data-sly-test="${card5['linktext'].length > 0  && card5['link'].length > 0}">${card5.linktext}</a>
+    <p class="cmp-card5__text" data-sly-test="${card5['text'].length > 0}">${card5.text}</p>
+    <a class="cmp-card5__button" href=${card5.buttonlink} data-sly-test="${card5['buttontext'].length > 0  && card5['buttonlink'].length > 0}">${card5.buttontext}</a>
+</div>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+
