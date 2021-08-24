@@ -1,28 +1,33 @@
 .cmp-card2 {
     $imageSize: 70px;
+    $width : $imageSize*2;
     padding: 20px;
-    margin: 0 15px;
-    width: fit-content;
+    display: flex;
+    justify-content: center; /* center horizontal */
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: $width; 
 
     .cmp-card2__image {
        
 
-    /* This class targets a Core Component Image CSS class */
-    .cmp-image__image {
-        width: $imageSize;
-        height: $imageSize;
-        object-fit: cover;
-        display: block;
-        margin: 0 auto;
+        /* This class targets a Core Component Image CSS class */
+        .cmp-image__image {
+            width: $imageSize;
+            height: $imageSize;
+            object-fit:cover;
+            display: inline-block;
+            margin-right: 10px;
+            display: block;
+            margin: 0 auto;
         }
     }
 
     .cmp-card2__title {
         font-size: $font-size-medium;
         font-family: $font-family-serif;
-        
-       
-        margin-bottom: .25rem;
-        margin-top:0rem;
+     //   margin: 0.25rem 0;
+        text-align: center;
     }
 }

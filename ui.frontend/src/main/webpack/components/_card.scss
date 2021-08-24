@@ -1,23 +1,19 @@
-.cmp-card--title--darkgreen {
-    .cmp-card {
-        .cmp-card__title {
-            color: $dark-green; /* Green */
-        }
-    }
-}
+
     .cmp-card {
         $imageSize: 100px;
         padding: 20px;
+        margin: 20px 0;
+        margin-bottom: 50px;
 
         .cmp-card__image {
             float: left;
 
-        /* This class targets a Core Component Image CSS class */
-        .cmp-image__image {
-            width: $imageSize;
-            height: $imageSize;
-            object-fit: cover;
-            margin-right: 10px;
+            /* This class targets a Core Component Image CSS class */
+            .cmp-image__image {
+                width: $imageSize;
+                height: $imageSize;
+                object-fit: cover;
+                margin-right: 10px;
             }
         }
 
@@ -48,21 +44,65 @@
             border-radius: 50%;
             background-color: transparent;
             color: #2e6430;
-        }
 
-        .cmp-card__button:hover {
-            background-color: #2e6430; /* Green */
-            color: white;
-        }
+            &:hover {
+                background-color: #2e6430; /* Green */
+                color: white;
+            }
+        }     
     }
-
+    //light green background style
     .cmp-card--bg--green {
         background-color: aquamarine;
     }
         
-
+    //light red background style
     .cmp-card--bg--red {
         background-color: palevioletred;
     }
 
+    //dark green title style
+    .cmp-card--title--darkgreen {
+        .cmp-card {
+            .cmp-card__title {
+                color: $dark-green;
+            }
+        }
+    }
 
+       //full width image
+       .cmp-card--image--big {
+        .cmp-card {
+            .cmp-card__title, .cmp-card__description {
+                margin-left: 0;
+            }
+            .cmp-card__image {
+                float: none;
+                .cmp-image__image {
+                    $imageSize: 200px;
+                    width: 100%;
+                    overflow: hidden;
+                    height: $imageSize;
+                    object-fit:fill;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    //turn button into link
+    .cmp-card--button--link {
+        .cmp-card {
+            .cmp-card__button {
+                float: left;
+                display: inline;
+                text-decoration: none;
+                color: $blue;
+                padding: 0;
+                border: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }

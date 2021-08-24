@@ -566,6 +566,41 @@
                         </item0>
                     </cq:styleGroups>
                 </policy_28351247553900>
+                <policy_22045431868500
+                    jcr:lastModified="{Date}2021-08-18T14:34:17.810-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="demo"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                    linkDisabled="false"
+                    type="h1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Decoration"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-underline1"
+                                    cq:styleId="1629140955453"
+                                    cq:styleLabel="Underline1"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                        <item1
+                            cq:styleGroupLabel="Title color"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-title__green"
+                                    cq:styleId="1629311428079"
+                                    cq:styleLabel="Dark green"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
+                    </cq:styleGroups>
+                </policy_22045431868500>
             </title>
             <text jcr:primaryType="nt:unstructured">
                 <policy_1570746487640
@@ -1679,6 +1714,119 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1575032193319>
             </download>
+            <card jcr:primaryType="nt:unstructured">
+                <policy_1629141484482
+                    jcr:lastModified="{Date}2021-08-24T15:26:03.275-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Card policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowUpload="true"
+                    disableLazyLoading="true"
+                    jpegQuality="{Long}1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Background"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-card--bg--green"
+                                    cq:styleId="1629141519568"
+                                    cq:styleLabel="Green"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-card--bg--red"
+                                    cq:styleId="1629141564885"
+                                    cq:styleLabel="Red"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                        <item1
+                            cq:styleGroupLabel="Title color"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-card--title--darkgreen"
+                                    cq:styleId="1629142458332"
+                                    cq:styleLabel="Dark green"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleId="1629142476751"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
+                        <item2
+                            cq:styleGroupLabel="Image position"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-card--image--big"
+                                    cq:styleId="1629831842670"
+                                    cq:styleLabel="Full width"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item2>
+                        <item3
+                            cq:styleGroupLabel="Button/Link"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-card--button--link "
+                                    cq:styleId="1629833141226"
+                                    cq:styleLabel="turn button into link"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item3>
+                    </cq:styleGroups>
+                </policy_1629141484482>
+            </card>
+            <showcase jcr:primaryType="nt:unstructured">
+                <policy_1629146103255
+                    jcr:lastModified="{Date}2021-08-24T14:07:43.695-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Showcase content"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    columns="15"
+                    components="/apps/wknd/components/card2"
+                    layout="responsiveGrid"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:authoring jcr:primaryType="nt:unstructured">
+                        <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
+                    </cq:authoring>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured"/>
+                    </cq:styleGroups>
+                </policy_1629146103255>
+            </showcase>
+            <card5 jcr:primaryType="nt:unstructured">
+                <policy_1629744095669
+                    jcr:lastModified="{Date}2021-08-23T14:42:14.768-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Card5 policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowUpload="true"
+                    disableLazyLoading="true"
+                    jpegQuality="{Long}1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Content alignment"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-card5--content--center"
+                                    cq:styleId="1629744102895"
+                                    cq:styleLabel="center"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1629744095669>
+            </card5>
         </components>
     </wknd>
 </jcr:root>
