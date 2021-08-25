@@ -17,6 +17,17 @@
             }
         }
 
+        .cmp-card__image--below {
+            display: none;
+            /* This class targets a Core Component Image CSS class */
+            .cmp-image__image {
+                width: $imageSize;
+                height: $imageSize;
+                object-fit: cover;
+                margin-right: 10px;
+            }
+        }
+
         .cmp-card__title {
             font-size: $font-size-medium;
             font-family: $font-family-serif;
@@ -38,10 +49,10 @@
         .cmp-card__button {
             float: right;
             display: inline;
-            padding: 15px 20px;
+            padding: 5px 10px;
             border: 1px solid #2e6430;
             text-decoration: none;
-            border-radius: 50%;
+            border-radius: 25px;
             background-color: transparent;
             color: #2e6430;
 
@@ -53,12 +64,22 @@
     }
     //light green background style
     .cmp-card--bg--green {
-        background-color: aquamarine;
+        background-color: $green-light;
     }
         
     //light red background style
     .cmp-card--bg--red {
         background-color: palevioletred;
+    }
+
+     //light blue background style
+     .cmp-card--bg--blue {
+        background-color: $blue-light;
+    }
+
+     //light pink background style
+     .cmp-card--bg--pink {
+        background-color: $pink-light;
     }
 
     //dark green title style
@@ -70,8 +91,8 @@
         }
     }
 
-       //full width image
-       .cmp-card--image--big {
+    //full width image
+    .cmp-card--image--big {
         .cmp-card {
             .cmp-card__title, .cmp-card__description {
                 margin-left: 0;
@@ -90,6 +111,34 @@
         }
     }
 
+    //position image at the bottom of the component
+    .cmp-card--image--place--bottom {
+        .cmp-card {
+            .cmp-card__title, .cmp-card__description {
+                margin-left: 0;
+            }
+            .cmp-card__image--below {
+                display: block;
+                float: right;
+                margin-bottom: 17px;
+                margin-right: 20px;
+                .cmp-image__image {
+                    $imageSize: 150px;
+                    width: $imageSize;
+                    overflow: hidden;
+                    height: $imageSize;
+                    object-fit:fill;
+                    margin-right: 0;
+                }
+            }
+            .cmp-card__image {
+                display: none;
+            }
+        }
+    }
+
+
+
     //turn button into link
     .cmp-card--button--link {
         .cmp-card {
@@ -102,6 +151,7 @@
                 border: none;
                 &:hover {
                     text-decoration: underline;
+                    background-color: transparent;
                 }
             }
         }

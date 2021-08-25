@@ -1,4 +1,5 @@
-.cmp-text {}
+.cmp-text {
+}
 .cmp-text__paragraph {}
 
 /* WKND Text Quote style */
@@ -30,3 +31,24 @@
         }
     }
 }
+
+//hover effect - underline
+.cmp-text-hover--underline {
+    .cmp-text {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+//text (link) color - dark blue
+.cmp-text-color--blue--dark {
+    .cmp-text {
+        p {
+            a {
+                color: $blue-dark;
+            }
+        } 
+    }
+}
+

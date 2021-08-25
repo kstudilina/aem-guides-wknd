@@ -1,4 +1,6 @@
-.cmp-container {}
+.cmp-container {
+    
+}
 
 .cmp-container-border {
     border: 2px dashed $dark-green;
@@ -10,4 +12,12 @@
     float: unset!important;
     margin: 0 auto!important;
     clear: both!important;
+}
+
+//gray border
+.cmp-container-border--gray {
+    .cmp-container {
+        border: 1px solid $gray-light;
+        border-radius: 2px;
+    }
 }
