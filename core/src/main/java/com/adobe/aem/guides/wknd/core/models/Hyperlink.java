@@ -1,9 +1,9 @@
 package com.adobe.aem.guides.wknd.core.models;
 
 /**
-* Represents the Link AEM Component for project.
+* Represents the Hyperlink AEM Component for project.
 **/
-public interface Link {
+public interface Hyperlink {
     /***
     * @return a string to display as the url.
     */

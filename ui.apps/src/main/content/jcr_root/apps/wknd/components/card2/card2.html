@@ -5,7 +5,12 @@ class="cmp-card2">
     <div class="cmp-card2__image"
     data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"></div>
     <h1 class="cmp-card2__title" data-sly-element="${card2.titlesize}">${card2.title}</h1> <!-- Replaces the h1 with the value of titlesize -->
+    
+    <!-- Embedding button component -->
+ <!--   <div data-sly-resource="${'button' @ resourceType = 'core/wcm/components/button/v2/button' }" ></div> -->
 
+    <!-- Embedding hyperlink component -->
+    <div class="cmp-card2--hyperlink" data-sly-resource="${'hyperlink' @ resourceType = 'wknd/components/hyperlink' }" ></div>
 </div>
 <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
 

@@ -24,10 +24,22 @@
         }
     }
 
+    .cmp-card2--hyperlink {
+
+    }
+
     .cmp-card2__title {
-        font-size: $font-size-medium;
         font-family: $font-family-serif;
      //   margin: 0.25rem 0;
         text-align: center;
+    }
+}
+
+//align link to the center
+.cmp-card2-hyperlink-align--center {
+    .cmp-card2 {
+        .cmp-card2--hyperlink {
+            text-align: center;
+        }
     }
 }

@@ -1,8 +1,0 @@
-<div data-sly-use.Showcase="com.adobe.aem.guides.wknd.core.models.Link"
-data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
-data-sly-test.hasContent="${!link.empty}"
-class="cmp-link">
-    <a class="cmp-link--anchor" href=${link.url} data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/text/v2/text' }"></a>
-</div>
-<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
-

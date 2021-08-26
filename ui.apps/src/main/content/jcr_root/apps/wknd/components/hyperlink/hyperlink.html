@@ -1,0 +1,10 @@
+<div data-sly-use.Hyperlink="com.adobe.aem.guides.wknd.core.models.Hyperlink"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+data-sly-test.hasContent="${!hyperlink.empty}"
+class="cmp-hyperlink"> 
+    <a class="cmp-hyperlink--anchor" href="${hyperlink.url}" >
+        <p data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/text/v2/text' }"></p>
+    </a>
+</div>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+

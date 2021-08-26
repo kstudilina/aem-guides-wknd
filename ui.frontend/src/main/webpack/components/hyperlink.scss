@@ -1,0 +1,44 @@
+.cmp-hyperlink{
+    padding: 5px;
+    .cmp-hyperlink--anchor, .cmp-text__text {
+        color: $black;
+        &:hover {
+            text-decoration: underline;
+        }
+    }     
+}
+
+//dark blue color
+.cmp-hyperlink-color--blue {
+    .cmp-hyperlink{
+        .cmp-hyperlink--anchor, .cmp-text__text {
+            color: $blue-dark;
+        }     
+    }
+}
+
+//gray color
+.cmp-hyperlink-color--gray {
+    .cmp-hyperlink{
+        .cmp-hyperlink--anchor, .cmp-text__text {
+            color: $gray-darker;
+        }     
+    }
+}
+
+//align content
+.cmp-hyperlink-alignment--center {
+    .cmp-hyperlink{
+        display: flex;
+        justify-content: center; /* center horizontal */
+        align-items: center; 
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .cmp-hyperlink--anchor {
+            .cmp-text__text{
+                
+            }
+        }   
+    }
+}

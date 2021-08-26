@@ -11,17 +11,17 @@ import org.apache.sling.models.annotations.injectorspecific.OSGiService;
 import org.apache.sling.models.annotations.injectorspecific.Self;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 import org.apache.sling.models.factory.ModelFactory;
-import com.adobe.aem.guides.wknd.core.models.Link;
+import com.adobe.aem.guides.wknd.core.models.Hyperlink;
 import com.adobe.cq.wcm.core.components.models.Text;
 
 @Model(
         adaptables = {SlingHttpServletRequest.class},
-        adapters = {Link.class},
-        resourceType = {LinkImpl.RESOURCE_TYPE},
+        adapters = {Hyperlink.class},
+        resourceType = {HyperlinkImpl.RESOURCE_TYPE},
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
-public class LinkImpl implements Link {
-    protected static final String RESOURCE_TYPE = "wknd/components/content/link";
+public class HyperlinkImpl implements Hyperlink {
+    protected static final String RESOURCE_TYPE = "wknd/components/content/hyperlink";
 
     @Self
     private SlingHttpServletRequest request;
