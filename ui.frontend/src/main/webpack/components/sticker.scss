@@ -1,0 +1,22 @@
+.cmp-sticker {
+    .cmp-sticker__container {
+        border-radius: 50px 50px 0px 50px;
+        background-color: $blue-dark;
+        .cmp-sticker--round {
+            height: 50px;
+            width: 50px;
+            background-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            border: $white 2px solid;
+            border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+            .cmp-sticker--title {
+                color: $white;
+            }
+        }
+
+        .cmp-sticker--text {
+            color: $white;
+        }
+    }
+}
