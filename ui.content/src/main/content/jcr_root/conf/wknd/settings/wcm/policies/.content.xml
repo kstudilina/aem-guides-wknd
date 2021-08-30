@@ -2172,6 +2172,35 @@
                     </cq:styleGroups>
                 </policy_1630007842314>
             </card2>
+            <sticker jcr:primaryType="nt:unstructured">
+                <policy_1630357165972
+                    jcr:lastModified="{Date}2021-08-30T17:03:02.732-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Sticker content"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Fix position"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-sticker-position--bottom--right "
+                                    cq:styleId="1630357196251"
+                                    cq:styleLabel="bottom-right"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-sticker-position--top--right"
+                                    cq:styleId="1630357229105"
+                                    cq:styleLabel="top-right"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1630357165972>
+            </sticker>
         </components>
     </wknd>
 </jcr:root>

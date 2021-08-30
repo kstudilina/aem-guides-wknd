@@ -2,13 +2,10 @@
 data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
 data-sly-test.hasContent="${!sticker.empty}"
 class="cmp-sticker">
-    <div class="cmp-sticker__container"
-        data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/container/v1/container' }">
-        <span class="cmp-sticker--round">
-            <p class="cmp-sticker--title">${sticker.title}</p>
-        </span>
-        <p class="cmp-sticker--text">${sticker.text}</p>
-    </div>
+    <span class="cmp-sticker--round">
+        <p class="cmp-sticker--title">${sticker.title}</p>
+    </span>
+    <p class="cmp-sticker--text">${sticker.text}</p>
 </div>
 <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
 

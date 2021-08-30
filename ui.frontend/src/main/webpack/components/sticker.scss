@@ -1,22 +1,40 @@
 .cmp-sticker {
-    .cmp-sticker__container {
-        border-radius: 50px 50px 0px 50px;
-        background-color: $blue-dark;
-        .cmp-sticker--round {
-            height: 50px;
-            width: 50px;
-            background-color: transparent;
-            border-radius: 50%;
-            display: inline-block;
-            border: $white 2px solid;
-            border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
-            .cmp-sticker--title {
-                color: $white;
-            }
-        }
+    border-radius: 50px 50px 0px 50px;
+    background-color: $blue-dark;
+    padding: 10px;
 
-        .cmp-sticker--text {
-            color: $white;
-        }
+    .cmp-sticker--title {
+        color: $white;
+        display: inline-block;
+        width: 20%;
+    }
+
+    .cmp-sticker--text {
+        color: $white;
+        display: inline-block;
+        width: 80%;
+    }
+
+    .cmp-sticker--round {
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        border: $white 2px solid;
+        text-align: center;      
+    }
+
+    .cmp-sticker__container {     
+        
+    }
+}
+
+.cmp-sticker-position--bottom--right {
+    .cmp-sticker {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 3000;
     }
 }
